@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xinlilaoshi/list",
+    "pages/xinlilaoshi/add-or-update",
+    "pages/xinlilaoshi/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/xinlizhishi/list",
+    "pages/xinlizhishi/add-or-update",
+    "pages/xinlizhishi/detail",
+    "pages/xinlizixun/list",
+    "pages/xinlizixun/add-or-update",
+    "pages/xinlizixun/detail",
+    "pages/zaixianyuyue/list",
+    "pages/zaixianyuyue/add-or-update",
+    "pages/zaixianyuyue/detail",
+    "pages/xinlipinggu/list",
+    "pages/xinlipinggu/add-or-update",
+    "pages/xinlipinggu/detail",
+    "pages/xinlitishi/list",
+    "pages/xinlitishi/add-or-update",
+    "pages/xinlitishi/detail",
+    "pages/xinlidangan/list",
+    "pages/xinlidangan/add-or-update",
+    "pages/xinlidangan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/exampaperlist/list",
+    "pages/exampaperlist/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examfailrecord/list",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校心理咨询系统的设计",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#C2C2FE",
+    "borderStyle": "white",
+    "backgroundColor": "#5657B0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/xinlilaoshi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "心理老师"
+      },
+      {
+        "pagePath": "pages/xinlizhishi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "心理知识"
+      },
+      {
+        "pagePath": "pages/exampaperlist/list",
+        "iconPath": "static/tabs/exam.png",
+        "selectedIconPath": "static/tabs/exam_act.png",
+        "text": "心理测试"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
