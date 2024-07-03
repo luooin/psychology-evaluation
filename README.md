@@ -42,7 +42,8 @@
 
 **心理老师**
 
-![GIF 2024-7-3 23-00-30](https://github.com/luooin/psychology-evaluation/assets/85004172/0cc42df2-3e16-462a-bf24-238095777484)
+![GIF 2024-7-3 23-00-30](https://github.com/luooin/psychology-evaluation/assets/85004172/a1afad64-67c2-4784-bdae-48f8bce7a29c)
+
 
 **学生**
 
